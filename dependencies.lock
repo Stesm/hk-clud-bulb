@@ -1,0 +1,21 @@
+dependencies:
+  Stesm/idf-aht10:
+    component_hash: 40d9640ebfc1d7fb4203035557dc217607d39f5ce694fae4c0cbe02bf1e4fdbc
+    source:
+      git: https://github.com/Stesm/idf-ah10.git
+      type: git
+    version: 600d5f47980402cc93d36614a23b08794cc00833
+  espressif/libsodium:
+    component_hash: e23107ba18054dfdc697618cbb9ad8cbacbe5092aaf72f2b59ca45507f3859e4
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.18
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.0.0
+manifest_hash: f4b34a64e94391d1dbf40e4c3e036e0d8e4f2d6bf2593cdaec704ddcb72e444b
+target: esp32
+version: 1.0.0
